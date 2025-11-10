@@ -205,5 +205,5 @@ def microstate0_combined_histogram(df, run=False):
         plt.close()
 
 microstate0_plots(df, run=False) 
-microstate0_trend_plots(df, run=True)
-microstate0_combined_histogram(df, run=True)
+microstate0_trend_plots(df, run=False)
+microstate0_combined_histogram(df, run=False)
